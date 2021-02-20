@@ -14,7 +14,6 @@ export const NavbarComponent = ({ aboutRef, projectsRef, contactRef }) => {
 
 	return (
 		<Navbar>
-			<NavLink onClick={handleClick}>About</NavLink>
 			<NavLink onClick={handleClick}>Projects</NavLink>
 			<NavLink onClick={handleClick}>Contact</NavLink>
 		</Navbar>
