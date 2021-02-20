@@ -7,7 +7,7 @@ import { ContactComponent } from './components/ContactComponent';
 import './styles/reset.css';
 import './styles/main.css';
 
-export const Portfolio = () => {
+export const App = () => {
 	const aboutRef = useRef(null);
 	const projectsRef = useRef(null);
 	const contactRef = useRef(null);
