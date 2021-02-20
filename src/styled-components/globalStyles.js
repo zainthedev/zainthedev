@@ -26,17 +26,25 @@ export const ColumnWrapper = styled(motion.div)`
 `;
 
 export const TextColumnWrapper = styled(ColumnWrapper)`
+	width: 30%;
 	border-radius: 10px;
 	box-shadow: 0px 0px 5px 0px #e1ce7a;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: #2c363f;
+	@media (max-width: 1440px) {
+		width: 40%;
+	}
+	@media (max-width: 768px) {
+		width: 90%;
+	}
 `;
 
 export const Heading = styled(motion.h1)`
-	font-family: 'Caveat', cursive;
-	font-size: 5rem;
-	text-shadow: 0px 0px 8px #1b998b;
+	place-self: center;
+	font-weight: 500;
+	font-size: 4rem;
+	text-shadow: 0px 0px 6px #1b998b;
 	@media (max-width: 768px) {
 		width: inherit;
 		text-align: center;
@@ -44,8 +52,11 @@ export const Heading = styled(motion.h1)`
 `;
 
 export const Subheading = styled(motion.h2)`
+	width: 80%;
+	font-weight: 500;
 	font-size: 2rem;
 	padding-bottom: 7px;
+	text-align: center;
 `;
 
 export const Button = styled.button`
@@ -67,5 +78,8 @@ export const Button = styled.button`
 	user-select: none;
 	:hover {
 		background: rgba(204, 90, 113, 1);
+	}
+	@media (max-width: 768px) {
+		width: 80%;
 	}
 `;
