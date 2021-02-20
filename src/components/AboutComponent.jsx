@@ -1,5 +1,5 @@
-import { About } from '../styled-components/aboutStyles';
+import { PortfolioSection } from '../styled-components/globalStyles';
 
 export const AboutComponent = ({ forwardedRef }) => {
-	return <About ref={forwardedRef}></About>;
+	return <PortfolioSection ref={forwardedRef}>About</PortfolioSection>;
 };

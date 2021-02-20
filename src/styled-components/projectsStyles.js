@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-export const About = styled.div`
-	padding-top: 53px;
+export const Projects = styled.div`
 	display: flex;
 	height: 100vh;
 `;

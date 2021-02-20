@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-export const About = styled.div`
-	padding-top: 53px;
+export const PortfolioSection = styled.div`
 	display: flex;
+	padding-top: 53px;
 	height: 100vh;
 `;

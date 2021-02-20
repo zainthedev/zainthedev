@@ -5,3 +5,8 @@ html {
 	color: #f1fbff;
 	font-family: 'Roboto', sans-serif;
 }
+
+#root {
+	padding-top: 54px;
+	padding-bottom: 54px;
+}
