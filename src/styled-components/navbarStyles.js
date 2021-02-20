@@ -14,4 +14,9 @@ export const Navbar = styled.div`
 	}
 `;
 
-export const NavLink = styled.a``;
+export const NavLink = styled.a`
+	cursor: pointer;
+	:hover {
+		color: rgba(204, 90, 113, 1);
+	}
+`;

@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { motion } from 'framer-motion';
+import { ParticlesComponent } from './components/ParticlesComponent';
 import { NavbarComponent } from './components/NavbarComponent';
 import { AboutComponent } from './components/AboutComponent';
 import { ProjectsComponent } from './components/ProjectsComponent';
@@ -14,8 +14,9 @@ export const Portfolio = () => {
 
 	return (
 		<>
-			<NavbarComponent aboutRef={aboutRef} projectsRef={projectsRef} contactRef={contactRef} />
-			<AboutComponent forwardedRef={aboutRef} />
+			<ParticlesComponent />
+			<NavbarComponent projectsRef={projectsRef} contactRef={contactRef} />
+			<AboutComponent forwardedRef={aboutRef} projectsRef={projectsRef} />
 			<ProjectsComponent forwardedRef={projectsRef} />
 			<ContactComponent forwardedRef={contactRef} />
 		</>

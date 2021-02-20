@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 import { PortfolioSection } from './globalStyles';
 
 export const About = styled(PortfolioSection)`
@@ -11,15 +12,17 @@ export const About = styled(PortfolioSection)`
 	}
 `;
 
-export const MainImage = styled.img`
+export const MainImage = styled(motion.img)`
 	width: 30vw;
 	min-width: 320px;
 	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px #e1ce7a;
 `;
 
-export const Description = styled.p`
-	width: 100%;
+export const Description = styled(motion.p)`
+	width: 80%;
 	border-top: solid 1px #1b998b;
 	font-size: 1.25rem;
 	padding-top: 10px;
+	padding-bottom: 50px;
 `;
