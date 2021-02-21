@@ -90,6 +90,7 @@ export const Button = styled.button`
 	background: rgba(204, 90, 113, 0.7);
 	cursor: pointer;
 	user-select: none;
+	transition: all 0.1s ease-in-out;
 	:hover {
 		background: rgba(204, 90, 113, 1);
 	}

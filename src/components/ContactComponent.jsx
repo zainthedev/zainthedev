@@ -1,25 +1,26 @@
-import { useRef } from 'react';
-import {
-	ColumnWrapper,
-	TextColumnWrapper,
-	Heading,
-	Subheading,
-	Button,
-} from '../styled-components/globalStyles';
+import { useRef, useState } from 'react';
+import { Heading, Button } from '../styled-components/globalStyles';
 import { Contact, ContactInfo, ContactText, Icon } from '../styled-components/contactStyles';
 import linkedinIcon from '../images/linkedinIcon.svg';
 import githubIcon from '../images/githubIcon.svg';
 
 export const ContactComponent = ({ forwardedRef }) => {
+	const [copied, setCopied] = useState(false);
 	const textAreaRef = useRef(null);
 
 	function copyToClipboard() {
-		window.getSelection().removeAllRanges();
-		const range = document.createRange();
-		range.selectNode(textAreaRef.current);
-		window.getSelection().addRange(range);
-		document.execCommand('copy');
-		window.getSelection().removeAllRanges();
+		if (copied === false) {
+			window.getSelection().removeAllRanges();
+			const range = document.createRange();
+			range.selectNode(textAreaRef.current);
+			window.getSelection().addRange(range);
+			document.execCommand('copy');
+			window.getSelection().removeAllRanges();
+			setCopied(true);
+			setTimeout(() => {
+				setCopied(false);
+			}, 1000);
+		}
 	}
 
 	return (
@@ -29,7 +30,11 @@ export const ContactComponent = ({ forwardedRef }) => {
 				<ContactText ref={textAreaRef} value='zainthedev@gmail.com'>
 					zainthedev@gmail.com
 				</ContactText>
-				<Button onClick={copyToClipboard}>COPY</Button>
+				{!copied ? (
+					<Button onClick={copyToClipboard}>COPY</Button>
+				) : (
+					<Button style={{ background: '#1b998b' }}>COPIED!</Button>
+				)}
 			</ContactInfo>
 			<ContactInfo>
 				<Icon src={linkedinIcon} alt='LinkedIn' />

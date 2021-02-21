@@ -8,7 +8,6 @@ import {
 } from '../styled-components/projectsStyles';
 import { Description } from '../styled-components/aboutStyles';
 import { Heading, Subheading, ButtonWrapper, Button } from '../styled-components/globalStyles';
-import { EmojiComponent } from './EmojiComponent';
 import reactagram1 from '../images/reactagram1.webp';
 import reactagram2 from '../images/reactagram2.webp';
 import waldo1 from '../images/waldo1.webp';
@@ -45,16 +44,15 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						{'\n'}
 						{'\n'}
 						Features:
-						<ul>
-							<li>• Login with Gmail or create your own account</li>
-							<li>• Crop and upload images with captions, tags and a location to your profile</li>
-							<li>• View user profiles with dynamic routing</li>
-							<li>• Search for, follow and tag other users in your posts</li>
-							<li>• Comment on and Like other users' posts</li>
-							<li>• View the posts of the users you follow on the home page</li>
-							<li>• View the explore page to view all posts on to Reactagram</li>
-							<li>• Receive notifications upon user interaction</li>
-						</ul>
+						{'\n'}• Login with Gmail or create your own account
+						{'\n'}• Crop and upload images with captions, tags and a location to your profile
+						{'\n'}• View user profiles with dynamic routing
+						{'\n'}• Search for, follow and tag other users in your posts
+						{'\n'}• Comment on and Like other users' posts
+						{'\n'}• View the posts of the users you follow on the home page
+						{'\n'}• View the explore page to view all posts on to Reactagram
+						{'\n'}• Receive notifications upon user interaction
+						{'\n'}
 						{'\n'}
 						Hammering down the functionality and interaction with Firebase was undoubtedly one of
 						the biggest challenges of this project. I also had a tough time with the dynamic routing
@@ -92,13 +90,10 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						{'\n'}
 						{'\n'}
 						Features:
-						<ul>
-							<li>• Click and create tags on characters</li>
-							<li>
-								• Enter your name to record and compare your score to other players on the
-								scoreboard
-							</li>
-						</ul>
+						{'\n'}• Click and create tags on characters
+						{'\n'}• Enter your name to record and compare your score to other players on the
+						scoreboard
+						{'\n'}
 						{'\n'}
 						As this was my first time using TypeScript, it was rather daunting first. However, after
 						a day or two, I grew to enjoy it and now feel comfortable with it.
@@ -137,13 +132,10 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						tested with <ColorText>Jest</ColorText>.{'\n'}
 						{'\n'}
 						Features:
-						<ul>
-							<li>• Place your ships exactly as you'd like before the game starts</li>
-							<li>
-								• Battle against the animated cat pirate - find and sink his ships before he sinks
-								yours
-							</li>
-						</ul>
+						{'\n'}• Place your ships exactly as you'd like before the game starts
+						{'\n'}• Battle against the animated cat pirate - find and sink his ships before he sinks
+						yours
+						{'\n'}
 						{'\n'}
 						This project allowed me to flex my creative muscles in creating an animated AI to fight
 						against. All animations and art was created by myself.
@@ -182,11 +174,10 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						<ColorText>OpenWeather API</ColorText>.{'\n'}
 						{'\n'}
 						Features:
-						<ul>
-							<li>• View current weather and an 8-day forecast</li>
-							<li>• Allow access to your location to get the weather data for your area</li>
-							<li>• Search by city to get weather data from around the world</li>
-						</ul>
+						{'\n'}• View current weather and an 8-day forecast
+						{'\n'}• Allow access to your location to get the weather data for your area
+						{'\n'}• Search by city to get weather data from around the world
+						{'\n'}
 						{'\n'}
 						This project was my first experience with asynchronous JavaScript. It was a valuable
 						learning experience, and felt like the first glimpse of the limitless potential of web
