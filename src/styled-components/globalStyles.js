@@ -26,6 +26,7 @@ export const ColumnWrapper = styled(motion.div)`
 `;
 
 export const TextColumnWrapper = styled(ColumnWrapper)`
+	align-self: center;
 	width: 30%;
 	border-radius: 10px;
 	box-shadow: 0px 0px 5px 0px #e1ce7a;

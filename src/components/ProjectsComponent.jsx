@@ -1,4 +1,11 @@
-import { Projects, Project, ProjectImage, ColorText } from '../styled-components/projectsStyles';
+import {
+	Projects,
+	Project,
+	ProjectImagesWrapper,
+	ProjectImage,
+	ProjectTextWrapper,
+	ColorText,
+} from '../styled-components/projectsStyles';
 import { About, MainImage, Description } from '../styled-components/aboutStyles';
 import {
 	ColumnWrapper,
@@ -18,11 +25,11 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 		<Projects animate='visible' ref={forwardedRef}>
 			<Heading>Projects</Heading>
 			<Project>
-				<ColumnWrapper>
+				<ProjectImagesWrapper>
 					<ProjectImage src={reactagram1} />
 					<ProjectImage src={reactagram2} />
-				</ColumnWrapper>
-				<TextColumnWrapper>
+				</ProjectImagesWrapper>
+				<ProjectTextWrapper>
 					<Subheading>Reactagram</Subheading>
 					<Description>
 						Created with <ColorText>React, TypeScript and Firebase</ColorText>, Reactagram is an
@@ -48,7 +55,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						the biggest challenges of this project. I also had a tough time with the dynamic routing
 						for user profiles, but with some grit and perseverance, I overcame these challenges.
 					</Description>
-				</TextColumnWrapper>
+				</ProjectTextWrapper>
 			</Project>
 		</Projects>
 	);
