@@ -77,3 +77,7 @@ export const ColorText = styled.b`
 	color: #e1ce7a;
 	font-weight: 500;
 `;
+
+export const FeaturesText = styled.b`
+	font-weight: 500;
+`;

@@ -5,6 +5,7 @@ import {
 	ProjectImage,
 	ProjectTextWrapper,
 	ColorText,
+	FeaturesText,
 } from '../styled-components/projectsStyles';
 import { Description } from '../styled-components/aboutStyles';
 import { Heading, Subheading, ButtonWrapper, Button } from '../styled-components/globalStyles';
@@ -43,7 +44,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						core features of Instagram.
 						{'\n'}
 						{'\n'}
-						Features:
+						<FeaturesText>Features:</FeaturesText>
 						{'\n'}• Login with Gmail or create your own account
 						{'\n'}• Crop and upload images with captions, tags and a location to your profile
 						{'\n'}• View user profiles with dynamic routing
@@ -89,7 +90,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						and tag 3 characters.
 						{'\n'}
 						{'\n'}
-						Features:
+						<FeaturesText>Features:</FeaturesText>
 						{'\n'}• Click and create tags on characters
 						{'\n'}• Enter your name to record and compare your score to other players on the
 						scoreboard
@@ -131,7 +132,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						A test-driven incarnation of Battleship created with <ColorText>React</ColorText> and
 						tested with <ColorText>Jest</ColorText>.{'\n'}
 						{'\n'}
-						Features:
+						<FeaturesText>Features:</FeaturesText>
 						{'\n'}• Place your ships exactly as you'd like before the game starts
 						{'\n'}• Battle against the animated cat pirate - find and sink his ships before he sinks
 						yours
@@ -173,7 +174,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						A weather app created with <ColorText>React</ColorText> and the{' '}
 						<ColorText>OpenWeather API</ColorText>.{'\n'}
 						{'\n'}
-						Features:
+						<FeaturesText>Features:</FeaturesText>
 						{'\n'}• View current weather and an 8-day forecast
 						{'\n'}• Allow access to your location to get the weather data for your area
 						{'\n'}• Search by city to get weather data from around the world
