@@ -7,7 +7,7 @@ I enjoy building responsive, clean websites, learning new things, and making ele
 - 🌱 Learning NodeJS
 - 📫 Contact: zainthedev@gmail.com
 
-View my portfolio site at https://www.zainhill.com
+View my portfolio site at https://zainhill.com
 
 ### Tech
 
