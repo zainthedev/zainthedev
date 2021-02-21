@@ -1,9 +1,46 @@
-import { PortfolioSection } from '../styled-components/globalStyles';
+import { useRef } from 'react';
+import {
+	ColumnWrapper,
+	TextColumnWrapper,
+	Heading,
+	Subheading,
+	Button,
+} from '../styled-components/globalStyles';
+import { Contact, ContactInfo, ContactText, Icon } from '../styled-components/contactStyles';
+import linkedinIcon from '../images/linkedinIcon.svg';
+import githubIcon from '../images/githubIcon.svg';
 
 export const ContactComponent = ({ forwardedRef }) => {
+	const textAreaRef = useRef(null);
+
+	function copyToClipboard() {
+		window.getSelection().removeAllRanges();
+		const range = document.createRange();
+		range.selectNode(textAreaRef.current);
+		window.getSelection().addRange(range);
+		document.execCommand('copy');
+		window.getSelection().removeAllRanges();
+	}
+
 	return (
-		<PortfolioSection animate='visible' ref={forwardedRef}>
-			Contact
-		</PortfolioSection>
+		<Contact animate='visible' ref={forwardedRef}>
+			<Heading>Get in touch</Heading>
+			<ContactInfo>
+				<ContactText ref={textAreaRef} value='zainthedev@gmail.com'>
+					zainthedev@gmail.com
+				</ContactText>
+				<Button onClick={copyToClipboard}>COPY</Button>
+			</ContactInfo>
+			<ContactInfo>
+				<Icon src={linkedinIcon} alt='LinkedIn' />
+			</ContactInfo>
+			<ContactInfo>
+				<Icon
+					onClick={() => window.open('https://github.com/zainthedev/')}
+					src={githubIcon}
+					alt='Github'
+				/>
+			</ContactInfo>
+		</Contact>
 	);
 };

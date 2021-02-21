@@ -47,6 +47,7 @@ export const ProjectImage = styled.img`
 	max-width: 35%;
 	border-radius: 10px;
 	cursor: pointer;
+	transition: all 0.1s ease-in-out;
 	@media (max-width: 1024px) {
 		max-width: 60%;
 		margin-bottom: 10px;
@@ -57,7 +58,7 @@ export const ProjectImage = styled.img`
 		margin-bottom: 0px;
 	}
 	:hover {
-		transform: scale(1.01);
+		transform: scale(1.1);
 		box-shadow: 0px 0px 5px 0px #e1ce7a;
 	}
 `;
@@ -74,4 +75,5 @@ export const ProjectTextWrapper = styled(TextColumnWrapper)`
 
 export const ColorText = styled.b`
 	color: #e1ce7a;
+	font-weight: 500;
 `;
