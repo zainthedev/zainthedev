@@ -46,7 +46,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						{'\n'}
 						<FeaturesText>Features:</FeaturesText>
 						{'\n'}• Login with Gmail or create your own account
-						{'\n'}• Crop and upload images with captions, tags and a location to your profile
+						{'\n'}• Crop and upload images to your profile with captions, tags and a location
 						{'\n'}• View user profiles with dynamic routing
 						{'\n'}• Search for, follow and tag other users in your posts
 						{'\n'}• Comment on and Like other users' posts
