@@ -17,6 +17,7 @@ I enjoy building responsive, clean websites, learning new things, and making ele
 
 ### Tools
 
+[<img src="https://img.shields.io/badge/firebase%20-%23121011.svg?&style=for-the-badge&logo=firebase&logoColor=fbcb2d&color=2f9be5"/>]()
 [<img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>]()
 [<img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>]()
 
