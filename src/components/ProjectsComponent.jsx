@@ -96,8 +96,8 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						scoreboard
 						{'\n'}
 						{'\n'}
-						As this was my first time using TypeScript, it was rather daunting first. However, after
-						a day or two, I grew to enjoy it and now feel comfortable with it.
+						As this was my first time using TypeScript, it was rather daunting at first. However,
+						after a day or two, I grew to enjoy it and now feel comfortable with it.
 						{'\n'}
 						Figuring out how to account for mouseclick position with different screen widths was
 						unexpectedly challenging, but was quickly solved with some Google-fu and simple math.
@@ -139,7 +139,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						{'\n'}
 						{'\n'}
 						This project allowed me to flex my creative muscles in creating an animated AI to fight
-						against. All animations and art was created by myself.
+						against. All animations and art were created by myself.
 						{'\n'}
 						Putting together the game logic with extensive use of React hooks and state proved
 						difficult. I solved this by focusing on keeping state as simple as possible, holding
