@@ -22,7 +22,9 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 	return (
 		<Projects animate='visible' ref={forwardedRef}>
 			<Heading>Projects</Heading>
-			<Subheading>Click an image to be taken to the live version of the site</Subheading>
+			<Subheading style={{ paddingTop: '10px' }}>
+				Click an image to be taken to the live version of the site
+			</Subheading>
 			<Project>
 				<ProjectImagesWrapper>
 					<ProjectImage
