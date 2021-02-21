@@ -27,7 +27,7 @@ export const AboutComponent = ({ forwardedRef, projectsRef }) => {
 				<Heading>Zain Hill</Heading>
 				<Subheading>Frontend JavaScript developer</Subheading>
 				<Description>
-					I'm Zain, a frontend developer specialising in React with a newfound love for TypeScript.
+					I'm Zain, a frontend developer specialising in React with a new-found love for TypeScript.
 					{'\n'}I enjoy building responsive, clean websites, learning new things, and making
 					electronic music. <EmojiComponent label='Keyboard' symbol='🎹' />
 				</Description>
