@@ -18,6 +18,7 @@ export const Project = styled(motion.div)`
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 50px;
+	padding-bottom: 50px;
 	@media (max-width: 768px) {
 		flex-direction: column;
 		place-content: end;
@@ -45,6 +46,7 @@ export const ProjectImagesWrapper = styled(ColumnWrapper)`
 export const ProjectImage = styled.img`
 	max-width: 35%;
 	border-radius: 10px;
+	cursor: pointer;
 	@media (max-width: 1024px) {
 		max-width: 60%;
 		margin-bottom: 10px;
@@ -54,12 +56,16 @@ export const ProjectImage = styled.img`
 		max-height: 40%;
 		margin-bottom: 0px;
 	}
+	:hover {
+		transform: scale(1.01);
+		box-shadow: 0px 0px 5px 0px #e1ce7a;
+	}
 `;
 
 export const ProjectTextWrapper = styled(TextColumnWrapper)`
 	width: 35%;
 	@media (max-width: 1440px) {
-		width: 60%;
+		width: 45%;
 	}
 	@media (max-width: 768px) {
 		width: 90%;
@@ -67,5 +73,5 @@ export const ProjectTextWrapper = styled(TextColumnWrapper)`
 `;
 
 export const ColorText = styled.b`
-	color: rgb(204, 90, 113);
+	color: #e1ce7a;
 `;
