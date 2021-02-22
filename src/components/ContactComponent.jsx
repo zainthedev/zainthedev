@@ -37,7 +37,11 @@ export const ContactComponent = ({ forwardedRef }) => {
 				)}
 			</ContactInfo>
 			<ContactInfo>
-				<Icon src={linkedinIcon} alt='LinkedIn' />
+				<Icon
+					onClick={() => window.open('www.linkedin.com/in/zain-hill-8508351bb')}
+					src={linkedinIcon}
+					alt='LinkedIn'
+				/>
 			</ContactInfo>
 			<ContactInfo>
 				<Icon
