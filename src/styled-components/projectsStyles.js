@@ -25,6 +25,9 @@ export const Project = styled(motion.div)`
 	margin-top: 50px;
 	padding-bottom: 50px;
 	border-bottom: solid 1px #291f1e;
+	@media (max-width: 1024px) {
+		width: 70%;
+	}
 	@media (max-width: 768px) {
 		flex-direction: column;
 		place-content: end;
