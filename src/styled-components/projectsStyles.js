@@ -61,7 +61,7 @@ export const ProjectImage = styled.img`
 	}
 	:hover {
 		transform: scale(1.1);
-		box-shadow: 0px 0px 5px 0px #e1ce7a;
+		box-shadow: 0px 0px 0px 1px #d62246;
 	}
 `;
 
