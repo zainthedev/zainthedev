@@ -8,7 +8,7 @@ import {
 	Button,
 } from '../styled-components/globalStyles';
 import { EmojiComponent } from './EmojiComponent';
-import ZainImage from '../images/zainImage.png';
+import ZainImage from '../images/zainImage.webp';
 import arrowIcon from '../images/arrowIcon.svg';
 
 export const AboutComponent = ({ projectsRef }) => {
