@@ -7,7 +7,7 @@ export const ParticlesComponent = () => {
 			options={{
 				background: {
 					color: {
-						value: '#2c363f',
+						value: '#291F1E',
 					},
 				},
 				fpsLimit: 60,
@@ -42,13 +42,13 @@ export const ParticlesComponent = () => {
 				},
 				particles: {
 					color: {
-						value: '#E1CE7A',
+						value: '#F4D35E',
 					},
 					links: {
 						color: '#ffffff',
 						distance: 100,
-						enable: false,
-						opacity: 0.5,
+						enable: true,
+						opacity: 0.1,
 						width: 1,
 					},
 					collisions: {
@@ -70,7 +70,7 @@ export const ParticlesComponent = () => {
 						value: 80,
 					},
 					opacity: {
-						value: 0.5,
+						value: 0.1,
 					},
 					shape: {
 						type: 'star',

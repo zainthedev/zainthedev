@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import { PortfolioSection } from './globalStyles';
 
-export const Contact = styled(PortfolioSection)`
+export const Contact = styled.div`
 	display: flex;
 	flex-direction: column;
 	place-content: space-evenly;
@@ -20,8 +19,6 @@ export const Contact = styled(PortfolioSection)`
 export const ContactInfo = styled.div`
 	display: flex;
 	flex-direction: column;
-	background: #2c363f;
-	border-radius: 10px;
 	place-items: center;
 	max-width: 100vw;
 `;

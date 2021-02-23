@@ -20,7 +20,12 @@ import weather2 from '../images/weather2.webp';
 
 export const ProjectsComponent = ({ forwardedRef }) => {
 	return (
-		<Projects animate='visible' ref={forwardedRef}>
+		<Projects
+			style={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{ ease: 'easeIn', duration: 0.5 }}
+			ref={forwardedRef}
+		>
 			<Heading>Projects</Heading>
 			<Subheading style={{ paddingTop: '10px' }}>
 				Click an image to be taken to the live version of the site

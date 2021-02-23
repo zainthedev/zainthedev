@@ -1,9 +1,11 @@
 import styled from 'styled-components';
-import { ColumnWrapper, PortfolioSection, TextColumnWrapper } from './globalStyles';
+import { ColumnWrapper, TextColumnWrapper } from './globalStyles';
 import { motion } from 'framer-motion';
 
-export const Projects = styled(PortfolioSection)`
+export const Projects = styled(motion.div)`
+	display: flex;
 	flex-direction: column;
+	width: 100%;
 	height: auto;
 	@media (max-width: 768px) {
 		flex-direction: column;
@@ -74,7 +76,7 @@ export const ProjectTextWrapper = styled(TextColumnWrapper)`
 `;
 
 export const ColorText = styled.b`
-	color: #e1ce7a;
+	color: #4daa57;
 	font-weight: 500;
 `;
 

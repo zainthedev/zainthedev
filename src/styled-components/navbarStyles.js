@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
 export const Navbar = styled.div`
+	color: #f1fbff;
 	display: flex;
-	place-content: space-around;
+	place-content: space-evenly;
 	place-items: center;
 	height: 53px;
-	width: 100%;
+	width: 50%;
 	font-size: 1.5rem;
 	box-sizing: border-box;
 	@media (max-width: 768px) {
-		bottom: 0;
-		top: auto;
+		width: 100%;
 	}
 `;
 

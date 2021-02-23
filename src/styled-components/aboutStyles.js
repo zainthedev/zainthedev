@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { PortfolioSection } from './globalStyles';
 
-export const About = styled(PortfolioSection)`
+export const About = styled(motion.div)`
 	display: flex;
-	place-content: space-evenly;
+	width: 100%;
+	height: calc(50vh - 54px);
+	place-content: center;
 	place-items: center;
-	min-height: calc(100vh - 54px);
+	margin-top: 50px;
+	margin-bottom: 200px;
 	@media (max-width: 768px) {
 		flex-direction: column;
 		place-content: end;
@@ -18,11 +20,10 @@ export const About = styled(PortfolioSection)`
 `;
 
 export const MainImage = styled(motion.img)`
-	width: 30vw;
+	width: 12vw;
 	max-width: 100%;
-	min-width: 280px;
-	border-radius: 10px;
-	box-shadow: 0px 0px 5px 0px #e1ce7a;
+	min-width: 200px;
+	border-radius: 100%;
 	@media (max-width: 768px) {
 		margin-top: 20px;
 	}
@@ -30,7 +31,7 @@ export const MainImage = styled(motion.img)`
 
 export const Description = styled(motion.p)`
 	width: 80%;
-	border-top: solid 1px #1b998b;
+	border-top: solid 1px #4daa57;
 	font-size: 1.25rem;
 	padding-top: 10px;
 	padding-bottom: 15px;

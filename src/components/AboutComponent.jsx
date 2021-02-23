@@ -1,29 +1,25 @@
+import { ParticlesComponent } from './ParticlesComponent';
 import { About, MainImage, Description } from '../styled-components/aboutStyles';
 import {
 	ColumnWrapper,
-	TextColumnWrapper,
+	AboutTextColumnWrapper,
 	Heading,
 	Subheading,
 	Button,
 } from '../styled-components/globalStyles';
-import { useViewportScroll, useTransform } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 import { EmojiComponent } from './EmojiComponent';
-import ZainImage from '../images/zainImage.jpg';
+import ZainImage from '../images/zainImage.png';
 import arrowIcon from '../images/arrowIcon.svg';
 
-export const AboutComponent = ({ forwardedRef, projectsRef }) => {
-	const { scrollY } = useViewportScroll();
-	const y1 = useTransform(scrollY, [0, 300], [0, 0]);
-
-	const [ref, inView] = useInView({
-		threshold: 0.5,
-		triggerOnce: false,
-	});
-
+export const AboutComponent = ({ projectsRef }) => {
 	return (
-		<About style={{ y: y1 }} animate={inView ? 'visible' : 'hidden'} ref={ref}>
-			<TextColumnWrapper>
+		<About
+			style={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{ ease: 'easeIn', duration: 0.5 }}
+		>
+			<ParticlesComponent />
+			<AboutTextColumnWrapper>
 				<Heading>Zain Hill</Heading>
 				<Subheading>Frontend JavaScript developer</Subheading>
 				<Description>
@@ -34,7 +30,7 @@ export const AboutComponent = ({ forwardedRef, projectsRef }) => {
 				<Button onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>
 					VIEW MY WORK <img style={{ width: '0.7rem' }} src={arrowIcon} alt='Arrow'></img>
 				</Button>
-			</TextColumnWrapper>
+			</AboutTextColumnWrapper>
 			<ColumnWrapper>
 				<MainImage src={ZainImage} alt='Zain standing in the snow in Nagano' />
 			</ColumnWrapper>
