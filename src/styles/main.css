@@ -38,4 +38,5 @@ canvas {
 	background-image: url(../images/transparentWave.svg);
 	background-position: bottom;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
