@@ -63,8 +63,7 @@ export const ProjectImage = styled.img`
 		margin-bottom: 0px;
 	}
 	:hover {
-		transform: scale(1.1);
-		box-shadow: 0px 0px 0px 1px #d62246;
+		transform: scale(1.05);
 	}
 `;
 

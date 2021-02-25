@@ -22,7 +22,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 			ref={forwardedRef}
 		>
 			<Heading>Projects</Heading>
-			<Subheading style={{ paddingTop: '10px' }}>
+			<Subheading style={{ paddingTop: '10px', fontSize: '1.5rem' }}>
 				Click an image to be taken to the live version of the site
 			</Subheading>
 			<Project>
