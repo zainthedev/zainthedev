@@ -32,11 +32,12 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 							onClick={() => window.open('https://reactagram-zain.web.app/')}
 							alt='Reactagram 1 Wide'
 							srcSet={projectImages.wideReactagram1JPG}
-							// src={projectImages.wideReactagram1}
+							src={projectImages.wideReactagram1}
 						/>
 						<WideProjectImage
 							onClick={() => window.open('https://reactagram-zain.web.app/')}
 							alt='Reactagram 2 Wide'
+							srcSet={projectImages.wideReactagram2JPG}
 							src={projectImages.wideReactagram2}
 						/>
 					</WideImagesWrapper>
