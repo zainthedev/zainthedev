@@ -44,11 +44,13 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 					<ProjectImage
 						onClick={() => window.open('https://reactagram-zain.web.app/')}
 						alt='Reactagram 1'
+						srcSet={projectImages.reactagram1JPG}
 						src={projectImages.reactagram1}
 					/>
 					<ProjectImage
 						onClick={() => window.open('https://reactagram-zain.web.app/')}
 						alt='Reactagram 2'
+						srcSet={projectImages.reactagram2JPG}
 						src={projectImages.reactagram2}
 					/>
 				</ProjectImagesWrapper>
@@ -91,22 +93,26 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/waldo/')}
 							alt='Waldo 1 Wide'
+							srcSet={projectImages.wideWaldo1JPG}
 							src={projectImages.wideWaldo1}
 						/>
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/waldo/')}
 							alt='Waldo 2 Wide'
+							srcSet={projectImages.wideWaldo2JPG}
 							src={projectImages.wideWaldo2}
 						/>
 					</WideImagesWrapper>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/waldo/')}
 						alt='Waldo 1'
+						srcSet={projectImages.waldo1JPG}
 						src={projectImages.waldo1}
 					/>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/waldo/')}
 						alt='Waldo 2'
+						srcSet={projectImages.waldo2JPG}
 						src={projectImages.waldo2}
 					/>
 				</ProjectImagesWrapper>
@@ -147,22 +153,26 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/battleship/')}
 							alt='Battleship 1 Wide'
+							srcSet={projectImages.wideBattleship1JPG}
 							src={projectImages.wideBattleship1}
 						/>
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/battleship/')}
 							alt='Battleship 2 Wide'
+							srcSet={projectImages.wideBattleship2JPG}
 							src={projectImages.wideBattleship2}
 						/>
 					</WideImagesWrapper>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/battleship/')}
 						alt='Battleship 1'
+						srcSet={projectImages.battleship1JPG}
 						src={projectImages.battleship1}
 					/>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/battleship/')}
 						alt='Battleship 2'
+						srcSet={projectImages.battleship2JPG}
 						src={projectImages.battleship2}
 					/>
 				</ProjectImagesWrapper>
@@ -201,22 +211,26 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/weather-app/')}
 							alt='Weather 1 Wide'
+							srcSet={projectImages.wideWeather1JPG}
 							src={projectImages.wideWeather1}
 						/>
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/weather-app/')}
 							alt='Weather 2 Wide'
+							srcSet={projectImages.wideWeather2JPG}
 							src={projectImages.wideWeather2}
 						/>
 					</WideImagesWrapper>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/weather-app/')}
 						alt='Weather 1'
+						srcSet={projectImages.weather1JPG}
 						src={projectImages.weather1}
 					/>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/weather-app/')}
 						alt='Weather 2'
+						srcSet={projectImages.weather2JPG}
 						src={projectImages.weather2}
 					/>
 				</ProjectImagesWrapper>
