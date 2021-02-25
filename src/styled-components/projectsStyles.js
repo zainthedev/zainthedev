@@ -18,15 +18,18 @@ export const Projects = styled(motion.div)`
 
 export const Project = styled(motion.div)`
 	display: flex;
-	flex-direction: column;
-	width: 60%;
+	flex-direction: row;
+	width: 90%;
 	align-self: center;
 	justify-content: center;
-	margin-top: 50px;
-	padding-bottom: 50px;
-	border-bottom: solid 1px #291f1e;
-	@media (max-width: 1024px) {
-		width: 70%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+	@media (min-width: 1440px) {
+		width: 80%;
+	}
+	@media (min-width: 2560px) {
+		width: 50%;
 	}
 	@media (max-width: 768px) {
 		flex-direction: column;
@@ -40,56 +43,36 @@ export const Project = styled(motion.div)`
 `;
 
 export const ProjectImagesWrapper = styled(ColumnWrapper)`
-	width: 80%;
 	align-self: center;
-	flex-direction: row;
-	place-content: space-evenly;
 	margin-bottom: 20px;
-	@media (max-width: 1024px) {
+	width: 50%;
+	flex: 1;
+	@media (max-width: 768px) {
 		width: 100%;
 	}
 `;
 
-export const ProjectImage = styled.img`
+export const WideProjectImage = styled.img`
 	max-width: 20%;
-	border-radius: 10px;
-	cursor: pointer;
-	margin-right: 50px;
 	transition: all 0.1s ease-in-out;
-	@media (max-width: 768px) {
-		display: none;
-		max-width: 100%;
-		max-height: 40%;
-		margin-bottom: 0px;
-	}
-	:hover {
-		transform: scale(1.05);
-	}
-`;
-
-export const WideImagesWrapper = styled.div`
-	display: flex;
 	width: 100%;
 	align-self: center;
-	flex-direction: column;
-`;
-
-export const WideProjectImage = styled(ProjectImage)`
-	width: 100%;
-	margin-bottom: 20px;
-	align-self: center;
-	max-width: 100%;
+	max-width: 600px;
+	padding-right: 50px;
 	@media (max-width: 768px) {
 		display: block;
 		max-width: 90%;
 		max-height: 40%;
 		margin-bottom: 10px;
-		margin-right: 0px;
+		padding-right: 0px;
 	}
 `;
 
 export const ProjectTextWrapper = styled(TextColumnWrapper)`
-	width: 100%;
+	margin-bottom: 1em;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 50%;
 	@media (max-width: 768px) {
 		width: 90%;
 	}

@@ -70,8 +70,8 @@ export const Button = styled.button`
 	padding-top: 6px;
 	padding-bottom: 6px;
 	margin-bottom: 10px;
-	font-size: 1.5rem;
-	font-weight: 500;
+	font-size: 1.25rem;
+	font-weight: 600;
 	text-align: center;
 	color: white;
 	background: rgba(214, 34, 70, 0.7);
@@ -80,15 +80,5 @@ export const Button = styled.button`
 	transition: all 0.1s ease-in-out;
 	:hover {
 		background: rgba(214, 34, 70, 1);
-	}
-`;
-
-export const WaveImage = styled.img`
-	position: absolute;
-	bottom: 0;
-	height: calc(90vh);
-	max-width: 100vw;
-	@media (max-width: 768px) {
-		height: calc(100vh + 290px);
 	}
 `;

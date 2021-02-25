@@ -30,15 +30,19 @@ export const MainImage = styled(motion.img)`
 `;
 
 export const Description = styled(motion.p)`
-	width: 80%;
+	margin-left: 20px;
+	margin-right: 20px;
 	border-top: solid 1px #4daa57;
 	font-size: 1.25rem;
 	padding-top: 10px;
 	padding-bottom: 15px;
-	line-height: 2rem;
+	line-height: 1.5rem;
 	white-space: break-spaces;
 	height: max-content;
+	height: 100%;
 	@media (max-width: 768px) {
 		width: 90%;
+		padding-top: 10px;
+		padding-bottom: 15px;
 	}
 `;
