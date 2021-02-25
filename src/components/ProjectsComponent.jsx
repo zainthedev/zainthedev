@@ -11,22 +11,7 @@ import {
 } from '../styled-components/projectsStyles';
 import { Description } from '../styled-components/aboutStyles';
 import { Heading, Subheading, ButtonWrapper, Button } from '../styled-components/globalStyles';
-import reactagram1 from '../images/reactagram1.webp';
-import reactagram2 from '../images/reactagram2.webp';
-import wideReactagram1 from '../images/wideReactagram1.webp';
-import wideReactagram2 from '../images/wideReactagram2.webp';
-import waldo1 from '../images/waldo1.webp';
-import waldo2 from '../images/waldo2.webp';
-import wideWaldo1 from '../images/wideWaldo1.webp';
-import wideWaldo2 from '../images/wideWaldo2.webp';
-import battleship1 from '../images/battleship1.webp';
-import battleship2 from '../images/battleship2.webp';
-import wideBattleship1 from '../images/wideBattleship1.webp';
-import wideBattleship2 from '../images/wideBattleship2.webp';
-import weather1 from '../images/weather1.webp';
-import weather2 from '../images/weather2.webp';
-import wideWeather1 from '../images/wideWeather1.webp';
-import wideWeather2 from '../images/wideWeather2.webp';
+import { projectImages } from '../projectImageContainer';
 
 export const ProjectsComponent = ({ forwardedRef }) => {
 	return (
@@ -46,23 +31,24 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						<WideProjectImage
 							onClick={() => window.open('https://reactagram-zain.web.app/')}
 							alt='Reactagram 1 Wide'
-							src={wideReactagram1}
+							srcSet={projectImages.wideReactagram1JPG}
+							src={projectImages.wideReactagram1}
 						/>
 						<WideProjectImage
 							onClick={() => window.open('https://reactagram-zain.web.app/')}
 							alt='Reactagram 2 Wide'
-							src={wideReactagram2}
+							src={projectImages.wideReactagram2}
 						/>
 					</WideImagesWrapper>
 					<ProjectImage
 						onClick={() => window.open('https://reactagram-zain.web.app/')}
 						alt='Reactagram 1'
-						src={reactagram1}
+						src={projectImages.reactagram1}
 					/>
 					<ProjectImage
 						onClick={() => window.open('https://reactagram-zain.web.app/')}
 						alt='Reactagram 2'
-						src={reactagram2}
+						src={projectImages.reactagram2}
 					/>
 				</ProjectImagesWrapper>
 				<ProjectTextWrapper>
@@ -75,7 +61,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						{'\n'}
 						<FeaturesText>Features:</FeaturesText>
 						{'\n'}• Login with Gmail or create your own account
-						{'\n'}• Crop and upload images to your profile with captions, tags and a location
+						{'\n'}• Crop and upload projectImages to your profile with captions, tags and a location
 						{'\n'}• View user profiles with dynamic routing
 						{'\n'}• Search for, follow and tag other users in your posts
 						{'\n'}• Comment on and Like other users' posts
@@ -104,23 +90,23 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/waldo/')}
 							alt='Waldo 1 Wide'
-							src={wideWaldo1}
+							src={projectImages.wideWaldo1}
 						/>
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/waldo/')}
 							alt='Waldo 2 Wide'
-							src={wideWaldo2}
+							src={projectImages.wideWaldo2}
 						/>
 					</WideImagesWrapper>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/waldo/')}
 						alt='Waldo 1'
-						src={waldo1}
+						src={projectImages.waldo1}
 					/>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/waldo/')}
 						alt='Waldo 2'
-						src={waldo2}
+						src={projectImages.waldo2}
 					/>
 				</ProjectImagesWrapper>
 				<ProjectTextWrapper>
@@ -160,23 +146,23 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/battleship/')}
 							alt='Battleship 1 Wide'
-							src={wideBattleship1}
+							src={projectImages.wideBattleship1}
 						/>
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/battleship/')}
 							alt='Battleship 2 Wide'
-							src={wideBattleship2}
+							src={projectImages.wideBattleship2}
 						/>
 					</WideImagesWrapper>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/battleship/')}
 						alt='Battleship 1'
-						src={battleship1}
+						src={projectImages.battleship1}
 					/>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/battleship/')}
 						alt='Battleship 2'
-						src={battleship2}
+						src={projectImages.battleship2}
 					/>
 				</ProjectImagesWrapper>
 				<ProjectTextWrapper>
@@ -214,23 +200,23 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/weather-app/')}
 							alt='Weather 1 Wide'
-							src={wideWeather1}
+							src={projectImages.wideWeather1}
 						/>
 						<WideProjectImage
 							onClick={() => window.open('https://zainthedev.github.io/weather-app/')}
 							alt='Weather 2 Wide'
-							src={wideWeather2}
+							src={projectImages.wideWeather2}
 						/>
 					</WideImagesWrapper>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/weather-app/')}
 						alt='Weather 1'
-						src={weather1}
+						src={projectImages.weather1}
 					/>
 					<ProjectImage
 						onClick={() => window.open('https://zainthedev.github.io/weather-app/')}
 						alt='Weather 2'
-						src={weather2}
+						src={projectImages.weather2}
 					/>
 				</ProjectImagesWrapper>
 				<ProjectTextWrapper>
