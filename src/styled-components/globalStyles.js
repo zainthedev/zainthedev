@@ -74,11 +74,11 @@ export const Button = styled.button`
 	font-weight: 600;
 	text-align: center;
 	color: white;
-	background: rgba(214, 34, 70, 0.7);
+	background: rgb(214, 34, 70);
 	cursor: pointer;
 	user-select: none;
 	transition: all 0.1s ease-in-out;
 	:hover {
-		background: rgba(214, 34, 70, 1);
+		background: #4daa57;
 	}
 `;

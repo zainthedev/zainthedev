@@ -30,11 +30,7 @@ export const ContactComponent = ({ forwardedRef }) => {
 				<ContactText ref={textAreaRef} value='zainthedev@gmail.com'>
 					zainthedev@gmail.com
 				</ContactText>
-				{!copied ? (
-					<Button onClick={copyToClipboard}>COPY</Button>
-				) : (
-					<Button style={{ background: '#1b998b' }}>COPIED!</Button>
-				)}
+				<Button onClick={copyToClipboard}>{!copied ? 'COPY' : 'COPIED!'}</Button>
 			</ContactInfo>
 			<ContactInfo>
 				<Icon
