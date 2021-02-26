@@ -1,13 +1,14 @@
 import {
 	Projects,
 	Project,
+	ProjectSubheading,
 	ProjectImagesWrapper,
 	WideProjectImage,
 	ProjectTextWrapper,
 	ColorText,
 } from '../styled-components/projectsStyles';
 import { Description } from '../styled-components/aboutStyles';
-import { Heading, Subheading, ButtonWrapper, Button } from '../styled-components/globalStyles';
+import { Heading, ButtonWrapper, Button } from '../styled-components/globalStyles';
 import { projectImages } from '../projectImageContainer';
 
 export const ProjectsComponent = ({ forwardedRef }) => {
@@ -28,7 +29,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 					/>
 				</ProjectImagesWrapper>
 				<ProjectTextWrapper>
-					<Subheading>Reactagram</Subheading>
+					<ProjectSubheading>Reactagram</ProjectSubheading>
 					<Description>
 						Created with <ColorText>React, TypeScript</ColorText> and{' '}
 						<ColorText>Firebase</ColorText>, Reactagram is an Instagram clone featuring most of the
@@ -60,7 +61,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 					/>
 				</ProjectImagesWrapper>
 				<ProjectTextWrapper>
-					<Subheading>Waldo (A Photo Tagging App)</Subheading>
+					<ProjectSubheading>Waldo (A Photo Tagging App)</ProjectSubheading>
 					<Description>
 						Created with <ColorText>React, TypeScript</ColorText> and{' '}
 						<ColorText>Firebase</ColorText>, Waldo is a photo-tagging game to find and tag 3
@@ -91,7 +92,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 					/>
 				</ProjectImagesWrapper>
 				<ProjectTextWrapper>
-					<Subheading>Battleship</Subheading>
+					<ProjectSubheading>Battleship</ProjectSubheading>
 					<Description>
 						A test-driven incarnation of the classic game of Battleship created with{' '}
 						<ColorText>React</ColorText> and tested with <ColorText>Jest.</ColorText>Users place
@@ -122,7 +123,7 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 					/>
 				</ProjectImagesWrapper>
 				<ProjectTextWrapper>
-					<Subheading>Weather</Subheading>
+					<ProjectSubheading>Weather</ProjectSubheading>
 					<Description>
 						A weather app created with <ColorText>React</ColorText> and the{' '}
 						<ColorText>OpenWeather API.</ColorText> Users can allow access to their location or

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ColumnWrapper, TextColumnWrapper } from './globalStyles';
+import { ColumnWrapper, TextColumnWrapper, Subheading } from './globalStyles';
 import { motion } from 'framer-motion';
 
 export const Projects = styled(motion.div)`
@@ -40,6 +40,12 @@ export const Project = styled(motion.div)`
 		margin-top: 20px;
 		width: 100%;
 	}
+`;
+
+export const ProjectSubheading = styled(Subheading)`
+	align-self: flex-start;
+	margin-left: 20px;
+	width: auto;
 `;
 
 export const ProjectImagesWrapper = styled(ColumnWrapper)`

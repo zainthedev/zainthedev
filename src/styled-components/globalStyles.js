@@ -13,14 +13,14 @@ export const ColumnWrapper = styled(motion.div)`
 
 export const TextColumnWrapper = styled(ColumnWrapper)`
 	align-self: center;
-	width: 30%;
+	width: 25%;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	@media (max-width: 1440px) {
-		width: 40%;
+		width: 50%;
 	}
 	@media (max-width: 768px) {
-		width: 90%;
+		width: 95%;
 	}
 `;
 
@@ -43,10 +43,10 @@ export const Heading = styled(motion.h1)`
 export const Subheading = styled(motion.h2)`
 	align-self: center;
 	text-align: center;
-	width: 80%;
 	font-weight: 500;
-	font-size: 2rem;
+	font-size: 1.75rem;
 	padding-bottom: 7px;
+	border-bottom: solid 1px #4daa57;
 `;
 
 export const ButtonWrapper = styled.div`
@@ -60,11 +60,11 @@ export const ButtonWrapper = styled.div`
 
 export const Button = styled.button`
 	display: flex;
-	place-content: space-evenly;
+	place-content: center;
 	align-items: center;
 	border: solid 1px #f1fbff;
 	border-radius: 5px;
-	width: 60%;
+	min-width: 30%;
 	max-width: 300px;
 	outline: none;
 	padding-top: 6px;
@@ -78,6 +78,12 @@ export const Button = styled.button`
 	cursor: pointer;
 	user-select: none;
 	transition: all 0.1s ease-in-out;
+	@media (max-width: 1024px) {
+		width: 70%;
+	}
+	@media (max-width: 768px) {
+		width: 70%;
+	}
 	:hover {
 		background: #4daa57;
 	}
