@@ -31,16 +31,16 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 				<ProjectTextWrapper>
 					<ProjectSubheading>Reactagram</ProjectSubheading>
 					<Description>
-						Created with <ColorText>React, TypeScript</ColorText> and{' '}
+						Created with <ColorText>React, TypeScript, styled-components</ColorText> and{' '}
 						<ColorText>Firebase</ColorText>, Reactagram is an Instagram clone featuring most of the
 						core features of Instagram. Users create an account or login with Gmail. User
 						interaction is saved on Cloud Firestore and dynamically loaded with the help of
 						<ColorText> react-router.</ColorText>
 						{'\n'}
 						{'\n'}
-						Implementing the interaction with Firebase was undoubtedly one of the biggest challenges
-						of this project. I also had a tough time with the dynamic routing for user profiles, but
-						with some grit and perseverance, I overcame these challenges.
+						Implementing the interaction with <ColorText>Firebase</ColorText> was undoubtedly one of
+						the biggest challenges of this project. I also had a tough time with the dynamic routing
+						for user profiles, but with some grit and perseverance, I overcame these challenges.
 					</Description>
 					<ButtonWrapper>
 						<Button onClick={() => window.open('https://reactagram-zain.web.app/')}>
@@ -63,15 +63,16 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 				<ProjectTextWrapper>
 					<ProjectSubheading>Waldo (A Photo Tagging App)</ProjectSubheading>
 					<Description>
-						Created with <ColorText>React, TypeScript</ColorText> and{' '}
+						Created with <ColorText>React, TypeScript, styled-components</ColorText> and{' '}
 						<ColorText>Firebase</ColorText>, Waldo is a photo-tagging game to find and tag 3
 						characters. Users can save their scores and name to Firebase and view the top 10 fastest
 						players.
 						{'\n'}
 						{'\n'}
-						As this was my first time working with TypeScript, it took a great deal of trial and
-						error and study of the documentation. I came to love the language and found great value
-						in its strong typing.
+						As this was my first time working with <ColorText>TypeScript</ColorText> and
+						<ColorText> styled-components</ColorText>, it took a great deal of trial and error and
+						study of the documentation. I came to love the language and found great value in its
+						strong typing.
 					</Description>
 					<ButtonWrapper>
 						<Button onClick={() => window.open('https://zainthedev.github.io/waldo/')}>
@@ -100,9 +101,9 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						with <ColorText>Jest.</ColorText> Animations and art created by myself.
 						{'\n'}
 						{'\n'}
-						Putting together the game logic with extensive use of React hooks and state proved
-						difficult. I solved this by focusing on keeping state as simple as possible, holding
-						only the data needed to render the game.
+						Putting together the game logic with extensive use of <ColorText>React</ColorText> hooks
+						and state proved difficult. I solved this by focusing on keeping state as simple as
+						possible, holding only the data needed to render the game.
 					</Description>
 					<ButtonWrapper>
 						<Button onClick={() => window.open('https://zainthedev.github.io/battleship/')}>
