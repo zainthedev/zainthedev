@@ -8,7 +8,8 @@ import {
 	Button,
 } from '../styled-components/globalStyles';
 import { EmojiComponent } from './EmojiComponent';
-import ZainImage from '../images/zainImage.webp';
+import zainImage from '../images/zainImage.webp';
+import zainImageJPG from '../images/zainImageJPG.jpg';
 import arrowIcon from '../images/arrowIcon.svg';
 
 export const AboutComponent = ({ projectsRef }) => {
@@ -33,7 +34,11 @@ export const AboutComponent = ({ projectsRef }) => {
 				</Button>
 			</AboutTextColumnWrapper>
 			<ColumnWrapper>
-				<MainImage src={ZainImage} alt='Zain standing in the snow in Nagano' />
+				<MainImage
+					srcSet={zainImageJPG}
+					src={zainImage}
+					alt='Zain standing in the snow in Nagano'
+				/>
 			</ColumnWrapper>
 		</About>
 	);
