@@ -21,7 +21,11 @@ html {
 }
 
 a {
+	display: flex;
+	justify-content: center;
 	text-decoration: none;
+	width: 100%;
+	align-self: center;
 }
 
 @media (max-width: 768px) {

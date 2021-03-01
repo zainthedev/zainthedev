@@ -33,12 +33,12 @@ export const ContactComponent = ({ forwardedRef }) => {
 				<Button onClick={copyToClipboard}>{!copied ? 'COPY' : 'COPIED!'}</Button>
 			</ContactInfo>
 			<ContactInfo>
-				<a href='https://linkedin.com/in/zain-hill-8508351bb'>
+				<a href='https://linkedin.com/in/zain-hill-8508351bb' target='_blank' rel='noreferrer'>
 					<Icon src={linkedinIcon} alt='LinkedIn'></Icon>
 				</a>
 			</ContactInfo>
 			<ContactInfo>
-				<a href='https://github.com/zainthedev/'>
+				<a href='https://github.com/zainthedev/' target='_blank' rel='noreferrer'>
 					<Icon src={githubIcon} alt='Github' />
 				</a>
 			</ContactInfo>

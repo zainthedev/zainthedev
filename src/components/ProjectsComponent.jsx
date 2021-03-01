@@ -43,12 +43,12 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						for user profiles, but with some grit and perseverance, I overcame these challenges.
 					</Description>
 					<ButtonWrapper>
-						<Button onClick={() => window.open('https://reactagram-zain.web.app/')}>
-							VIEW SITE
-						</Button>
-						<Button onClick={() => window.open('https://github.com/zainthedev/reactagram')}>
-							SOURCE CODE
-						</Button>
+						<a href='https://reactagram-zain.web.app/' target='_blank' rel='noreferrer'>
+							<Button>VIEW SITE</Button>
+						</a>
+						<a href='https://github.com/zainthedev/reactagram' target='_blank' rel='noreferrer'>
+							<Button>SOURCE CODE</Button>
+						</a>
 					</ButtonWrapper>
 				</ProjectTextWrapper>
 			</Project>
@@ -75,12 +75,12 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						strong typing.
 					</Description>
 					<ButtonWrapper>
-						<Button onClick={() => window.open('https://zainthedev.github.io/waldo/')}>
-							VIEW SITE
-						</Button>
-						<Button onClick={() => window.open('https://github.com/zainthedev/waldo')}>
-							SOURCE CODE
-						</Button>
+						<a href='https://zainthedev.github.io/waldo/' target='_blank' rel='noreferrer'>
+							<Button>VIEW SITE</Button>
+						</a>
+						<a href='https://github.com/zainthedev/waldo' target='_blank' rel='noreferrer'>
+							<Button>SOURCE CODE</Button>
+						</a>
 					</ButtonWrapper>
 				</ProjectTextWrapper>
 			</Project>
@@ -106,12 +106,12 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						possible, holding only the data needed to render the game.
 					</Description>
 					<ButtonWrapper>
-						<Button onClick={() => window.open('https://zainthedev.github.io/battleship/')}>
-							VIEW SITE
-						</Button>
-						<Button onClick={() => window.open('https://github.com/zainthedev/battleship')}>
-							SOURCE CODE
-						</Button>
+						<a href='https://zainthedev.github.io/battleship/' target='_blank' rel='noreferrer'>
+							<Button>VIEW SITE</Button>
+						</a>
+						<a href='https://github.com/zainthedev/battleship' target='_blank' rel='noreferrer'>
+							<Button>SOURCE CODE</Button>
+						</a>
 					</ButtonWrapper>
 				</ProjectTextWrapper>
 			</Project>
@@ -137,12 +137,12 @@ export const ProjectsComponent = ({ forwardedRef }) => {
 						the 8-day forecast also took some trial and error.
 					</Description>
 					<ButtonWrapper>
-						<Button onClick={() => window.open('https://zainthedev.github.io/weather-app/')}>
-							VIEW SITE
-						</Button>
-						<Button onClick={() => window.open('https://github.com/zainthedev/weather-app')}>
-							SOURCE CODE
-						</Button>
+						<a href='https://zainthedev.github.io/weather-app/' target='_blank' rel='noreferrer'>
+							<Button>VIEW SITE</Button>
+						</a>
+						<a href='https://github.com/zainthedev/weather-app' target='_blank' rel='noreferrer'>
+							<Button>SOURCE CODE</Button>
+						</a>
 					</ButtonWrapper>
 				</ProjectTextWrapper>
 			</Project>
