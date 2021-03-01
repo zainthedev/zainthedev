@@ -33,18 +33,14 @@ export const ContactComponent = ({ forwardedRef }) => {
 				<Button onClick={copyToClipboard}>{!copied ? 'COPY' : 'COPIED!'}</Button>
 			</ContactInfo>
 			<ContactInfo>
-				<Icon
-					onClick={() => window.open('https://linkedin.com/in/zain-hill-8508351bb')}
-					src={linkedinIcon}
-					alt='LinkedIn'
-				/>
+				<a href='https://linkedin.com/in/zain-hill-8508351bb'>
+					<Icon src={linkedinIcon} alt='LinkedIn'></Icon>
+				</a>
 			</ContactInfo>
 			<ContactInfo>
-				<Icon
-					onClick={() => window.open('https://github.com/zainthedev/')}
-					src={githubIcon}
-					alt='Github'
-				/>
+				<a href='https://github.com/zainthedev/'>
+					<Icon src={githubIcon} alt='Github' />
+				</a>
 			</ContactInfo>
 		</Contact>
 	);

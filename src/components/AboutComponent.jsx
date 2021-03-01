@@ -9,7 +9,7 @@ import {
 } from '../styled-components/globalStyles';
 import { EmojiComponent } from './EmojiComponent';
 import zainImage from '../images/zainImage.webp';
-import zainImageJPG from '../images/zainImageJPG.jpg';
+import zainImageJPG from '../images/zainImage.jpg';
 import arrowIcon from '../images/arrowIcon.svg';
 
 export const AboutComponent = ({ projectsRef }) => {
