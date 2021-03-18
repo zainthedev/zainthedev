@@ -24,6 +24,6 @@ View my portfolio site at <a target="_blank">https://zainhill.com</a>
 [<img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>]()
 [<img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>]()
 
-[![zainthedev's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=zainthedev)](https://github.com/anuraghazra/github-readme-stats)
+[![zainthedev's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=zainthedev)](https://github.com/zainthedev/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zainthedev&layout=compact&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)
