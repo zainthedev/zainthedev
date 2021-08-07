@@ -1,10 +1,10 @@
 ### Hi! Zain here
 
-I'm a frontend developer specialising in React with a new-found love for TypeScript.
+I'm a frontend developer based in Osaka, Japan.
 I enjoy building responsive, clean websites, learning new things, and making electronic music. 🎹
 
 - 🔭 Working on personal projects
-- 🌱 Learning NodeJS
+- 🌱 Learning Ruby
 - 📫 Contact: zainthedev@gmail.com
 
 View my portfolio site at <a target="_blank">https://zainhill.com</a>
