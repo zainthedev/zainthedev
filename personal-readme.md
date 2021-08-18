@@ -30,7 +30,7 @@ If I had to pick one work-related thing, the first thing that comes to mind is a
 In general, then, I think people who are disrespectful or rude to others make me grumpy.
 
 ### How do I like to give feedback?
-For a general feedback, I like to use voice chat or face-to-face conversation.
+For general feedback, I like to use voice chat or face-to-face conversation.
 For more detailed feedback, I find text works better, especially instant messages.
 
 ### How do I like to receive feedback?
