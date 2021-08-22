@@ -3,10 +3,7 @@
 I'm a frontend developer based in Osaka, Japan.
 I enjoy building responsive, clean websites, learning new things, and making electronic music. 🎹
 
-- 🔭 Working on personal projects
-- 🌱 Learning Ruby
-- 📫 Contact: zainthedev@gmail.com
-
+📫 Contact: zainthedev@gmail.com
 View my portfolio site at <a target="_blank">https://zainhill.com</a>
 
 ### Tech
